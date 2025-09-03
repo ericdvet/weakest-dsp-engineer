@@ -7,8 +7,11 @@ Created on Wed Sep  3 10:10:25 2025
 
 import pandas as pd
 import datetime
+import sys
+import os
 
 def main():
+    
     file_name = "novice_program_a.csv"
     df_a = get_exercise_df(file_name)
     file_name = "novice_program_b.csv"
@@ -17,22 +20,46 @@ def main():
     first_date = datetime.date(2025, 6, 23)
     last_date = datetime.date(2025, 8, 25)
     
-    dates = program_mwf_ab(first_date, last_date)
+    dates, labels = program_mwf_ab(first_date, last_date)
     print(dates)
+    print(labels)
+    
+    folder_name = "fill_out"
+    
+    for i, date in enumerate(dates):
+        if labels[i] == 'a':
+            df = df_a
+        else:
+            df = df_b
+        if not os.path.isdir(folder_name):
+            os.makedirs(folder_name)
+        df.to_csv(f"{folder_name}/{date}.csv")
     
 def program_mwf_ab(first_date : datetime.date, 
                    last_date : datetime.date):
+    
     dates = []
+    labels = []
+    
     date = first_date
+    label = 'a'
+    
     while(date <= last_date):
         dates.append(date)
+        labels.append(label)
+        
         date = date + datetime.timedelta(days=2)
         if date.weekday() == 6:
             date = date + datetime.timedelta(days=1)
             
-    return dates
+        if label == 'a':
+            label = 'b'
+        else:
+            label = 'a'
+            
+    return dates, labels
     
-    # df.to_csv(f"{first_date}.csv")
+    # 
     
 
 
