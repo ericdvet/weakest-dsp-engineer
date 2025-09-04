@@ -10,6 +10,9 @@ import datetime
 import sys
 import os
 
+
+# This test harness is outdated. See ../scripts/load.py and 
+# ../scripts/update.py
 def main():
     
     file_name = "novice_program_a.csv"

@@ -11,9 +11,9 @@ index,date,exercise,weight,reps
 9,2025-06-25,close-grip bench press,85,8
 10,2025-06-25,close-grip bench press,85,8
 11,2025-06-25,close-grip bench press,85,8
-12,2025-06-25,chin-up,0,5
-13,2025-06-25,chin-up,0,5
-14,2025-06-25,chin-up,0,5
+12,2025-06-25,chin up,0,5
+13,2025-06-25,chin up,0,5
+14,2025-06-25,chin up,0,5
 15,2025-06-27,pause bench,130,5
 16,2025-06-27,pause bench,130,5
 17,2025-06-27,pause bench,130,5
@@ -26,9 +26,9 @@ index,date,exercise,weight,reps
 24,2025-06-30,close-grip bench press,95,8
 25,2025-06-30,close-grip bench press,95,8
 26,2025-06-30,close-grip bench press,95,8
-27,2025-06-30,chin-up,5,5
-28,2025-06-30,chin-up,5,5
-29,2025-06-30,chin-up,5,5
+27,2025-06-30,chin up,5,5
+28,2025-06-30,chin up,5,5
+29,2025-06-30,chin up,5,5
 30,2025-07-02,pause bench,135,5
 31,2025-07-02,pause bench,135,5
 32,2025-07-02,pause bench,135,5
@@ -41,9 +41,9 @@ index,date,exercise,weight,reps
 39,2025-07-04,close-grip bench press,100,8
 40,2025-07-04,close-grip bench press,100,8
 41,2025-07-04,close-grip bench press,100,8
-42,2025-07-04,chin-up,10,5
-43,2025-07-04,chin-up,10,5
-44,2025-07-04,chin-up,10,5
+42,2025-07-04,chin up,10,5
+43,2025-07-04,chin up,10,5
+44,2025-07-04,chin up,10,5
 45,2025-07-07,pause bench,140,5
 46,2025-07-07,pause bench,140,5
 47,2025-07-07,pause bench,140,5
@@ -56,129 +56,132 @@ index,date,exercise,weight,reps
 54,2025-07-09,close-grip bench press,105,8
 55,2025-07-09,close-grip bench press,105,8
 56,2025-07-09,close-grip bench press,105,8
-57,2025-07-09,chin-up,10,5
-58,2025-07-09,chin-up,10,5
-59,2025-07-09,chin-up,10,5
+57,2025-07-09,chin up,10,5
+58,2025-07-09,chin up,10,5
+59,2025-07-09,chin up,10,5
 60,2025-07-11,pause bench,145,5
 61,2025-07-11,pause bench,145,5
 62,2025-07-11,pause bench,145,5
 63,2025-07-11,pendlay row,145,5
 64,2025-07-11,pendlay row,145,5
 65,2025-07-11,pendlay row,145,5
-66,025-07-14,pause bench,150,5
-67,025-07-14,pause bench,150,5
-68,025-07-14,pause bench,150,5
-69,025-07-14,pull up,0,5
-70,025-07-14,pull up,0,5
-71,025-07-14,pull up,0,5
-72,025-07-16,overhead press,105,5
-73,025-07-16,overhead press,105,5
-74,025-07-16,overhead press,105,5
-75,025-07-16,close-grip bench press,115,8
-76,025-07-16,close-grip bench press,115,8
-77,025-07-16,close-grip bench press,115,8
-78,025-07-16,chin-up,20,5
-79,025-07-16,chin-up,20,5
-80,025-07-16,chin-up,20,5
-81,025-07-18,pause bench,155,5
-82,025-07-18,pause bench,155,5
-83,025-07-18,pause bench,155,5
-84,025-07-18,pull up,5,5
-85,025-07-18,pull up,5,5
-86,025-07-18,pull up,5,5
-87,025-07-21,overhead press,110,5
-88,025-07-21,overhead press,110,5
-89,025-07-21,overhead press,110,5
-90,025-07-21,close-grip bench press,125,8
-91,025-07-21,close-grip bench press,125,8
-92,025-07-21,close-grip bench press,125,8
-93,025-07-21,chin-up,25,5
-94,025-07-21,chin-up,25,5
-95,025-07-21,chin-up,25,4
-96,025-07-23,pause bench,160,5
-97,025-07-23,pause bench,160,5
-98,025-07-23,pause bench,160,5
-99,025-07-23,pull up,10,5
-100,025-07-23,pull up,10,5
-101,025-07-23,pull up,10,5
-102,025-07-25,overhead press,115,5
-103,025-07-25,overhead press,115,5
-104,025-07-25,overhead press,115,5
-105,025-07-25,close-grip bench press,135,8
-106,025-07-25,close-grip bench press,135,8
-107,025-07-25,close-grip bench press,135,8
-108,025-07-25,chin-up,25,5
-109,025-07-25,chin-up,25,5
-110,025-07-25,chin-up,25,4
-111,025-07-28,pause bench,165,5
-112,025-07-28,pause bench,165,5
-113,025-07-28,pause bench,165,5
-114,025-07-28,pull up,20,5
-115,025-07-28,pull up,20,5
-116,025-07-28,pull up,20,5
-117,025-07-30,overhead press,120,5
-118,025-07-30,overhead press,120,5
-119,025-07-30,overhead press,120,5
-120,025-07-30,close-grip bench press,140,8
-121,025-07-30,close-grip bench press,140,8
-122,025-07-30,close-grip bench press,140,8
-123,025-07-30,chin-up,25,5
-124,025-07-30,chin-up,25,5
-125,025-07-30,chin-up,25,5
-126,025-08-01,pause bench,170,5
-127,025-08-01,pause bench,170,5
-128,025-08-01,pause bench,170,5
-129,025-08-01,pull up,20,5
-130,025-08-01,pull up,20,5
-131,025-08-01,pull up,20,5
-132,025-08-04,overhead press,125,5
-133,025-08-04,overhead press,110,5
-134,025-08-04,overhead press,110,5
-135,025-08-04,close-grip bench press,145,8
-136,025-08-04,close-grip bench press,145,8
-137,025-08-04,close-grip bench press,145,8
-138,025-08-04,chin-up,30,3
-139,025-08-04,chin-up,30,3
-140,025-08-04,chin-up,30,3
-141,025-08-06,pause bench,175,5
-142,025-08-06,pause bench,175,5
-143,025-08-06,pause bench,175,5
-144,025-08-06,pull up,25,5
-145,025-08-06,pull up,25,5
-146,025-08-06,pull up,25,5
-147,025-08-11,overhead press,115,5
-148,025-08-11,overhead press,115,5
-149,025-08-11,overhead press,115,5
-150,025-08-11,close-grip bench press,150,8
-151,025-08-11,close-grip bench press,150,8
-152,025-08-11,close-grip bench press,150,8
-153,025-08-11,chin-up,30,4
-154,025-08-11,chin-up,30,4
-155,025-08-11,chin-up,30,4
-156,025-08-13,pause bench,180,5
-157,025-08-13,pause bench,180,5
-158,025-08-13,pause bench,180,5
-159,025-08-13,pull up,30,5
-160,025-08-13,pull up,30,5
-161,025-08-13,pull up,30,5
-162,025-08-19,overhead press,120,5
-163,025-08-19,overhead press,120,5
-164,025-08-19,overhead press,120,5
-165,025-08-19,close-grip bench press,155,6
-166,025-08-19,close-grip bench press,155,6
-167,025-08-19,close-grip bench press,155,6
-168,025-08-19,chin-up,30,5
-169,025-08-19,chin-up,30,5
-170,025-08-19,chin-up,30,5
-171,025-08-21,pause bench,185,5
-172,025-08-21,pause bench,185,4
-173,025-08-21,pause bench,165,5
-174,025-08-21,pull up,35,5
-175,025-08-21,pull up,35,5
-176,025-08-21,pull up,35,3
-177,025-08-25,pause bench,125,5
-178,025-08-25,pause bench,125,5
-179,025-08-25,pause bench,125,5
-180,025-08-25,pull up,155,8
-181,025-08-25,pull up,155,6
-182,025-08-25,pull up,155,6
+66,2025-07-14,pause bench,150,5
+67,2025-07-14,pause bench,150,5
+68,2025-07-14,pause bench,150,5
+69,2025-07-14,pull up,0,5
+70,2025-07-14,pull up,0,5
+71,2025-07-14,pull up,0,5
+72,2025-07-16,overhead press,105,5
+73,2025-07-16,overhead press,105,5
+74,2025-07-16,overhead press,105,5
+75,2025-07-16,close-grip bench press,115,8
+76,2025-07-16,close-grip bench press,115,8
+77,2025-07-16,close-grip bench press,115,8
+78,2025-07-16,chin up,20,5
+79,2025-07-16,chin up,20,5
+80,2025-07-16,chin up,20,5
+81,2025-07-18,pause bench,155,5
+82,2025-07-18,pause bench,155,5
+83,2025-07-18,pause bench,155,5
+84,2025-07-18,pull up,5,5
+85,2025-07-18,pull up,5,5
+86,2025-07-18,pull up,5,5
+87,2025-07-21,overhead press,110,5
+88,2025-07-21,overhead press,110,5
+89,2025-07-21,overhead press,110,5
+90,2025-07-21,close-grip bench press,125,8
+91,2025-07-21,close-grip bench press,125,8
+92,2025-07-21,close-grip bench press,125,8
+93,2025-07-21,chin up,25,5
+94,2025-07-21,chin up,25,5
+95,2025-07-21,chin up,25,4
+96,2025-07-23,pause bench,160,5
+97,2025-07-23,pause bench,160,5
+98,2025-07-23,pause bench,160,5
+99,2025-07-23,pull up,10,5
+100,2025-07-23,pull up,10,5
+101,2025-07-23,pull up,10,5
+102,2025-07-25,overhead press,115,5
+103,2025-07-25,overhead press,115,5
+104,2025-07-25,overhead press,115,5
+105,2025-07-25,close-grip bench press,135,8
+106,2025-07-25,close-grip bench press,135,8
+107,2025-07-25,close-grip bench press,135,8
+108,2025-07-25,chin up,25,5
+109,2025-07-25,chin up,25,5
+110,2025-07-25,chin up,25,4
+111,2025-07-28,pause bench,165,5
+112,2025-07-28,pause bench,165,5
+113,2025-07-28,pause bench,165,5
+114,2025-07-28,pull up,20,5
+115,2025-07-28,pull up,20,5
+116,2025-07-28,pull up,20,5
+117,2025-07-30,overhead press,120,5
+118,2025-07-30,overhead press,120,5
+119,2025-07-30,overhead press,120,5
+120,2025-07-30,close-grip bench press,140,8
+121,2025-07-30,close-grip bench press,140,8
+122,2025-07-30,close-grip bench press,140,8
+123,2025-07-30,chin up,25,5
+124,2025-07-30,chin up,25,5
+125,2025-07-30,chin up,25,5
+126,2025-08-01,pause bench,170,5
+127,2025-08-01,pause bench,170,5
+128,2025-08-01,pause bench,170,5
+129,2025-08-01,pull up,20,5
+130,2025-08-01,pull up,20,5
+131,2025-08-01,pull up,20,5
+132,2025-08-04,overhead press,125,5
+133,2025-08-04,overhead press,110,5
+134,2025-08-04,overhead press,110,5
+135,2025-08-04,close-grip bench press,145,8
+136,2025-08-04,close-grip bench press,145,8
+137,2025-08-04,close-grip bench press,145,8
+138,2025-08-04,chin up,30,3
+139,2025-08-04,chin up,30,3
+140,2025-08-04,chin up,30,3
+141,2025-08-06,pause bench,175,5
+142,2025-08-06,pause bench,175,5
+143,2025-08-06,pause bench,175,5
+144,2025-08-06,pull up,25,5
+145,2025-08-06,pull up,25,5
+146,2025-08-06,pull up,25,5
+147,2025-08-11,overhead press,115,5
+148,2025-08-11,overhead press,115,5
+149,2025-08-11,overhead press,115,5
+150,2025-08-11,close-grip bench press,150,8
+151,2025-08-11,close-grip bench press,150,8
+152,2025-08-11,close-grip bench press,150,8
+153,2025-08-11,chin up,30,4
+154,2025-08-11,chin up,30,4
+155,2025-08-11,chin up,30,4
+156,2025-08-13,pause bench,180,5
+157,2025-08-13,pause bench,180,5
+158,2025-08-13,pause bench,180,5
+159,2025-08-13,pull up,30,5
+160,2025-08-13,pull up,30,5
+161,2025-08-13,pull up,30,5
+162,2025-08-19,overhead press,120,5
+163,2025-08-19,overhead press,120,5
+164,2025-08-19,overhead press,120,5
+165,2025-08-19,close-grip bench press,155,6
+166,2025-08-19,close-grip bench press,155,6
+167,2025-08-19,close-grip bench press,155,6
+168,2025-08-19,chin up,30,5
+169,2025-08-19,chin up,30,5
+170,2025-08-19,chin up,30,5
+171,2025-08-21,pause bench,185,5
+172,2025-08-21,pause bench,185,4
+173,2025-08-21,pause bench,165,5
+174,2025-08-21,pull up,35,5
+175,2025-08-21,pull up,35,5
+176,2025-08-21,pull up,35,3
+177,2025-08-25,overhead press,125,5
+178,2025-08-25,overhead press,125,5
+179,2025-08-25,overhead press,125,5
+180,2025-08-25,close-grip bench press,155,8
+181,2025-08-25,close-grip bench press,155,6
+182,2025-08-25,close-grip bench press,155,6
+183,2025-08-25,chin up,35,3
+184,2025-08-25,chin up,35,3
+185,2025-08-25,chin up,35,3
