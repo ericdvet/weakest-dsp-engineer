@@ -73,9 +73,8 @@ def update_data_from_program_card(program_card_dir : str, program_card_name : st
         df.index.name = "index"
     
     for index, row in program.iterrows():
-        date = program_card_name[1:]
-        date = date[:-4]
-        
+        date = program_card_name[:-4]
+                
         if index == 0:
             if date in df["date"].values:
                 print(f"WARNING: Skipping duplicate entry {date}")
@@ -85,7 +84,7 @@ def update_data_from_program_card(program_card_dir : str, program_card_name : st
                    "weight": row["weight"], "reps": row["reps"]}
         df.loc[len(df)] = new_row
     
-    df.to_csv(path_to_data)
+    # df.to_csv(path_to_data)
     
 
 def save_empty_program_card_ab(dates : list, labels : list,
@@ -200,8 +199,8 @@ def get_exercise_df(file_name : str):
 
     """
     
-    f = open(file_name)
-    file_contents = f.read()
+    with open(file_name) as f:
+        file_contents = f.read()
     routine = file_contents.split('\n')
     
     exercises = []
