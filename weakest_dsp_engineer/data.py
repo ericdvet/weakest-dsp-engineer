@@ -74,6 +74,7 @@ def update_data_from_program_card(program_card_dir : str, program_card_name : st
     
     for index, row in program.iterrows():
         date = program_card_name[:-4]
+        
                 
         if index == 0:
             if date in df["date"].values:
@@ -84,7 +85,7 @@ def update_data_from_program_card(program_card_dir : str, program_card_name : st
                    "weight": row["weight"], "reps": row["reps"]}
         df.loc[len(df)] = new_row
     
-    # df.to_csv(path_to_data)
+    df.to_csv(path_to_data)
     
 
 def save_empty_program_card_ab(dates : list, labels : list,
