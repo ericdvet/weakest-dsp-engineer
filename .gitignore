@@ -1,5 +1,7 @@
 *.csv
+credentials.json
 
+# Below are all defauly python .gitignores
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
